@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="Galaxy Nexus"
+        activity="com.example.blogreader.MainListActivity"
+        config="layout-sw360dp-w360dp-h640dp-normal-long-port-notnight-xhdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x720-v17"
+        device="Galaxy Nexus"
+        devicestate="Portrait"
+        target="Android 4.2"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="Nexus 7"
+        activity="com.example.blogreader.MainListActivity"
+        config="layout-sw600dp-w600dp-h961dp-large-notlong-port-notnight-tvdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x800-v17"
+        device="Nexus 7"
+        devicestate="Portrait"
+        target="Android 4.2"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="7in WSVGA(Tablet)"
+        activity="com.example.blogreader.MainListActivity"
+        config="layout-sw600dp-w600dp-h1024dp-large-long-port-notnight-mdpi-finger-keyssoft-nokeys-navhidden-nonav-1024x600-v17"
+        device="7in WSVGA (Tablet)"
+        devicestate="Portrait"
+        target="Android 4.2"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="Nexus One"
+        activity="com.example.blogreader.MainListActivity"
+        config="layout-sw320dp-w320dp-h533dp-normal-long-port-notnight-hdpi-finger-keyssoft-nokeys-navhidden-trackball-800x480-v17"
+        device="Nexus One"
+        devicestate="Portrait"
+        target="Android 4.2"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="10.1in WXGA (Tablet)"
+        activity="com.example.blogreader.MainListActivity"
+        config="layout-sw800dp-w800dp-h1280dp-xlarge-long-port-notnight-mdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x800-v17"
+        device="10.1in WXGA (Tablet)"
+        devicestate="Portrait"
+        target="Android 4.2"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="Landscape"
+        activity="com.example.blogreader.MainListActivity"
+        config="layout-sw320dp-w533dp-h320dp-normal-long-land-notnight-hdpi-finger-keyssoft-nokeys-navhidden-trackball-800x480-v17"
+        device="Nexus One"
+        devicestate="Landscape"
+        target="Android 4.2"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="Galaxys Nexus Lanscape"
+        activity="com.example.blogreader.MainListActivity"
+        config="layout-sw360dp-w640dp-h360dp-normal-long-land-notnight-xhdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x720-v17"
+        device="Galaxy Nexus"
+        devicestate="Landscape"
+        target="Android 4.2"
+        theme="@style/AppTheme" >
+    </preview>
+
+</previews>
