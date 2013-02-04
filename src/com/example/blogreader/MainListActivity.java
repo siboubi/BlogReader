@@ -21,20 +21,6 @@ public class MainListActivity extends ListActivity {
         // typically, you could just use the standard ListActivity layout.
         setContentView(R.layout.activity_main_list);
         
-        // Resources instance of our application package.
-        // Class for accessing an application's resources
-        Resources resources = getResources();
-        // Retrieving list of android names
-        mBlogPostTitle = resources.getStringArray(R.array.android_names);
-        
-        // ArrayAdapter is designed for binding to an array of strings of android names
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mBlogPostTitle);
-        
-        // bind to our new adapter
-        setListAdapter(adapter);
-        Intent intent = new Intent();
-        String action = intent.getAction();
-        Toast.makeText(this, "action: " + action, Toast.LENGTH_LONG).show();
 //        Toast.makeText(this, getString(R.string.no_items), Toast.LENGTH_LONG);
     }
 
